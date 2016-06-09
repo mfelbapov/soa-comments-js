@@ -1,0 +1,5 @@
+class AddUserIdToEntries < ActiveRecord::Migration
+  def change
+    add_column :users, :author_id, :integer
+  end
+end
